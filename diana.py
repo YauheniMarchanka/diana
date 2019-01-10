@@ -34,7 +34,6 @@ async def hello_w_name(request):
     name = 'name' in request.match_info and request.match_info['name'] or "неизвестный"
     return {'name': name}
 
-
 logging.basicConfig(level=logging.DEBUG)
 app = web.Application()
 setup_jinja(app)

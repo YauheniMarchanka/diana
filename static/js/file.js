@@ -1,4 +1,3 @@
-
 const url = "/server_time";
 function fetch_data(_url) {
 fetch(_url, {
